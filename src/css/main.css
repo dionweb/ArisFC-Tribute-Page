@@ -6,3 +6,40 @@ body{
     margin: 0;
     font-family: 'Architects Daughter', cursive;
 }
+
+.showcase{
+    height: 100vh;
+    background: url('../images/showcase1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    background: #000000;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0.86;
+}
+
+.intro{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 400px;
+}
+
+.intro img{
+    width: 200px;
+}
+
+.intro h1{
+    color: #ffc600;
+    font-size: 50px;
+}

@@ -55,11 +55,17 @@ body{
 
 .honours .box{
     padding: 1em;
+    flex-basis: 50%;
+    flex-grow: 0;
 }
 
 .honours h3{
     font-size: 24px;
     margin: 0;
+}
+
+.honours p{
+    font-size: 20px;
 }
 
 .honours i{
@@ -94,4 +100,8 @@ body{
     max-height: 0;
     overflow: hidden;
     transition: max-height 200ms ease-in-out;
+}
+
+.details h4{
+    font-size: 22px;
 }

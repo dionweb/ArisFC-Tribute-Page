@@ -194,3 +194,25 @@ body{
 li{
     list-style: none;
 }
+
+.footer{
+    min-height: 100px;
+    background-color: #262626;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 20px;
+    padding: 1em;
+}
+
+.footer p{
+    margin: 0;
+    padding: 16px 32px;
+}
+
+.footer span{
+    color: #ffc600;
+}
+
+.footer a{
+    text-decoration: none;
+}

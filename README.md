@@ -2,5 +2,5 @@
 
 - [x] Showcase
 - [ ] About
-- [ ] Titles
+- [ ] Honours
 - [ ] Historical matches

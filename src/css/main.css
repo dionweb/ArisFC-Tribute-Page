@@ -75,7 +75,6 @@ body{
 
 .about img{
     height: 300px;
-    z-index: 2;
     opacity: 0.9;
 }
 

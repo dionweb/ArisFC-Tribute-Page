@@ -4,7 +4,7 @@
 
 body{
     margin: 0;
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Advent Pro', sans-serif;
 }
 
 .showcase{
@@ -66,6 +66,7 @@ body{
     background: #eeeeee;
     color: #262626;
     padding: 2em;
+    font-size: 18px;
 }
 
 .about .right-box p{
@@ -119,8 +120,8 @@ body{
     display: block;
     margin: 20px auto 20px auto;
     cursor: pointer;
-    font-family: 'Architects Daughter', cursive;
     font-size: 20px;
+    font-family: 'Advent Pro', sans-serif;
 }
 
 .details-btn:hover, .details-btn:focus{
@@ -178,7 +179,7 @@ body{
 
 .otherhonours .left-box h2{
     margin: 0;
-    padding: 32px;
+    padding: 20px 32px;
     text-align: left;
     font-size: 26px;
     color: #ffc600;
@@ -193,6 +194,7 @@ body{
 
 li{
     list-style: none;
+    padding: 4px 0;
 }
 
 .footer{

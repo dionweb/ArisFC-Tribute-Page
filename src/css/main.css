@@ -218,3 +218,36 @@ li{
 .footer a{
     text-decoration: none;
 }
+
+@media only screen and (max-width: 992px) {
+    .about{
+        display: block;
+    }
+} 
+
+@media only screen and (max-width: 770px) {
+    .otherhonours{
+        display: block;
+    }
+} 
+
+@media only screen and (max-width: 636px) {
+    .honours{
+        display: block;
+    }
+    .about .left-box{
+        display: none;
+    }
+} 
+
+@media only screen and (max-width: 400px) {
+    .intro{
+        width: 200px;
+    }
+    .intro img{
+        width: 150px;
+    }
+    .intro h1{
+        font-size: 30px;
+    }
+}

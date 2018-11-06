@@ -3,5 +3,5 @@
 - [x] Showcase
 - [ ] About
 - [x] Honours
-- [ ] Honours (Other)
+- [x] Honours (Other)
 - [ ] Historical matches

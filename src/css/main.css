@@ -44,6 +44,39 @@ body{
     font-size: 50px;
 }
 
+.about{
+    display: flex;
+    text-align: center;
+}
+
+.about .left-box, .about .right-box{
+    flex-basis: 50%;
+    flex-grow: 0;
+    position: relative;
+}
+
+.about .left-box{
+    background: rgba(38, 38, 38, 0.82);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.about .right-box{
+    background: #eeeeee;
+    color: #262626;
+    padding: 2em;
+}
+
+.about .right-box p{
+    margin: 0;
+    padding: 2em;
+}
+
+.about img{
+    height: 300px;
+}
+
 .honours{
     padding: 2em;
     display: flex;
@@ -120,7 +153,7 @@ body{
     display: flex;
 }
 
-.left-box, .right-box{
+.otherhonours .left-box, .otherhonours .right-box{
     flex-basis: 50%;
     flex-grow: 0;
     position: relative;

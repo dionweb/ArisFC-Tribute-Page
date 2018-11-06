@@ -45,7 +45,7 @@ body{
 }
 
 .honours{
-    padding: 1em;
+    padding: 2em;
     display: flex;
     justify-content: space-around;
     background: #262626;
@@ -62,6 +62,7 @@ body{
 .honours h3{
     font-size: 24px;
     margin: 0;
+    padding: 20px 0;
 }
 
 .honours p{
@@ -76,13 +77,21 @@ body{
 .details-btn{
     border: 0;
     outline: 0;
+    border: 1px solid #ffc600;
+    border-radius: 8px;
+    padding: 7px 15px;
     background: transparent;
     color: #ffc600;
     display: block;
-    margin: auto;
+    margin: 20px auto 20px auto;
     cursor: pointer;
     font-family: 'Architects Daughter', cursive;
     font-size: 20px;
+}
+
+.details-btn:hover, .details-btn:focus{
+    background: #ffc600;
+    color: #262626;
 }
 
 .details-btn::after{
@@ -104,4 +113,5 @@ body{
 
 .details h4{
     font-size: 22px;
+    color: white;
 }

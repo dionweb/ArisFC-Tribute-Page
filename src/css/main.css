@@ -49,6 +49,10 @@ body{
     text-align: center;
 }
 
+.about .overlay{
+    opacity: 0.83;
+}
+
 .about .left-box, .about .right-box{
     flex-basis: 50%;
     flex-grow: 0;
@@ -56,7 +60,6 @@ body{
 }
 
 .about .left-box{
-    background: rgba(38, 38, 38, 0.82);
     align-items: center;
     display: flex;
     justify-content: center;
@@ -75,6 +78,8 @@ body{
 
 .about img{
     height: 300px;
+    z-index: 2;
+    opacity: 0.9;
 }
 
 .honours{
@@ -169,24 +174,24 @@ body{
     height: 100%;
 }
 
-.otherhonours .right-box{
+.otherhonours .left-box{
     background: #eeeeee;
     color: #262626;
     padding: 2em;
 }
 
-.otherhonours .right-box h2{
+.otherhonours .left-box h2{
     margin: 0;
-    padding: 30px 20px;
-    text-align: right;
+    padding: 32px;
+    text-align: left;
     font-size: 26px;
     color: #ffc600;
 }
 
-.otherhonours .right-box ul{
+.otherhonours .left-box ul{
     margin: 0;
-    padding: 0 20px;
-    text-align: right;
+    padding: 32px;
+    text-align: left;
     font-size: 20px;
 }
 

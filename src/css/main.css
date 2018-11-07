@@ -14,6 +14,9 @@ body{
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .overlay{
@@ -27,11 +30,7 @@ body{
 }
 
 .intro{
-    position: absolute;
     z-index: 2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
     width: 400px;
 }
@@ -162,6 +161,12 @@ body{
     position: relative;
 }
 
+.otherhonours .right-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .otherhonours .overlay{
     background: #262626;
     opacity: 0.7;
@@ -175,14 +180,10 @@ body{
 
 .otherhonours .right-box .hidden-text{
     position: absolute;
+    width: 80%;
     color: #ffc600;
     font-size: 30px;
     text-align: center;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
     z-index: 2;
     opacity: 0;
     transition: opacity 600ms ease-in-out;
@@ -210,7 +211,7 @@ body{
     color: #ffc600;
 }
 
-.otherhonours .left-box ul{
+ul{
     margin: 0;
     padding: 32px;
     text-align: left;
@@ -220,6 +221,23 @@ body{
 li{
     list-style: none;
     padding: 2px 0;
+}
+
+.home{
+    min-height: 500px;
+    background: url('../images/home.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .info {
+    color: #262626;
+    background: #eeee;
+    padding: 32px;
 }
 
 .footer{

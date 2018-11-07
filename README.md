@@ -5,3 +5,4 @@
 - [x] Honours
 - [x] Honours (Other)
 - [ ] Historical matches
+- [ ] Legends

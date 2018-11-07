@@ -244,10 +244,15 @@ li{
     .intro{
         width: 200px;
     }
+
     .intro img{
         width: 150px;
     }
     .intro h1{
         font-size: 30px;
+    }
+
+    .about .right-box p, .honours .box, .otherhonours .left-box ul, .otherhonours .left-box h2{
+        padding: 16px 0;
     }
 }

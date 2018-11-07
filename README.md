@@ -5,4 +5,5 @@
 - [x] Honours
 - [x] Honours (Other)
 - [ ] Historical matches
-- [ ] Legends
+- [ ] Top Players
+- [ ] Home

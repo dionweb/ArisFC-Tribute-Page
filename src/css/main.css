@@ -148,7 +148,7 @@ body{
 
 .details h4{
     font-size: 22px;
-    color: white;
+    color: #eeeeee;
 }
 
 .otherhonours{
@@ -236,8 +236,59 @@ li{
 
 .home .info {
     color: #262626;
-    background: #eeee;
+    background: rgba(238, 238, 238, 0.6);
     padding: 32px;
+    font-weight: 800;
+}
+
+.players{
+    background: #eeeeee;
+    color: #262626;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2em;
+}
+
+.players .box{
+    padding: 20px;
+    width: 290px;
+    min-height: 300px;
+    border-top: 3px solid #ffc600;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(38,38,38,0.5);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(38,38,38,0.5);
+    box-shadow: 0px 0px 10px 0px rgba(38,38,38,0.5);
+}
+
+.players img{
+    width: 70%;
+    border-radius: 50%;
+    padding: 5px;
+    border: 5px solid #ffc600;
+    background: #eeeeee;
+}
+
+.players h4, .players h5{
+    margin: 10px 0;
+}
+
+.players .more{
+    background: #ffc600;
+    text-align: center;
+    padding: 7px 5px;
+    cursor: pointer;
+}
+
+.more::after{
+    content: "\f106";
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+    padding: 0 10px;
+    text-align: right;
 }
 
 .footer{

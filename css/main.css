@@ -276,21 +276,6 @@ li{
     margin: 10px 0;
 }
 
-.players .more{
-    background: #ffc600;
-    text-align: center;
-    padding: 7px 5px;
-    cursor: pointer;
-}
-
-.more::after{
-    content: "\f106";
-    font-family: 'Font Awesome\ 5 Free';
-    font-weight: 900;
-    padding: 0 10px;
-    text-align: right;
-}
-
 .footer{
     min-height: 100px;
     background-color: #262626;

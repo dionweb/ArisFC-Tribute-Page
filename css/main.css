@@ -315,19 +315,19 @@ li{
 
 @media only screen and (max-width: 992px) {
     .about{
-        display: block;
+        flex-direction: column;
     }
 } 
 
 @media only screen and (max-width: 770px) {
     .otherhonours{
-        display: block;
+        flex-direction: column;
     }
 } 
 
 @media only screen and (max-width: 636px) {
     .honours{
-        display: block;
+        flex-direction: column;
     }
     .about .left-box{
         display: none;

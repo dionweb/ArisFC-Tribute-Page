@@ -226,6 +226,8 @@ li{
 .home{
     min-height: 500px;
     background: url('../images/home.jpg');
+    background-color: grey;
+  background-blend-mode: multiply;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -265,11 +267,13 @@ li{
 }
 
 .players img{
-    width: 70%;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     padding: 5px;
     border: 5px solid #ffc600;
     background: #eeeeee;
+    margin: 10px 0;
 }
 
 .players h4, .players h5{
@@ -302,11 +306,20 @@ li{
     .about{
         flex-direction: column;
     }
+
+    .players .box{
+        flex-basis: 30%;
+    }
 } 
 
 @media only screen and (max-width: 770px) {
     .otherhonours{
         flex-direction: column;
+    }
+
+    .box img{
+        width: 150px;
+        height: 150px;
     }
 } 
 
@@ -316,6 +329,20 @@ li{
     }
     .about .left-box{
         display: none;
+    }
+
+    .players{
+        flex-direction: column;
+    }
+
+    .players .box{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .box img{
+        width: 200px;
+        height: 200px;
     }
 } 
 

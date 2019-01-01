@@ -18,7 +18,6 @@ git clone https://github.com/dionweb/ArisFC-Tribute-Page.git
 - [x] Showcase
 - [x] About
 - [x] Honours
-- [ ] Historical matches
 - [x] Top Players
 - [x] Home
 
